@@ -1,0 +1,45 @@
+.box-container {
+  margin: 0 1rem;
+  padding: 1rem 0;
+  border: 2px white solid;
+  border-radius: 15px;
+  background: #142a3d;
+  text-align: initial;
+  color: #5ba7d5;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.location-box{
+  padding-left: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.location-text {
+  padding-right: 5px;
+}
+
+.weather-box {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  border-bottom: 2px solid #1e4d6e;
+}
+
+.weather-num {
+  font-size: 64px;
+  font-weight: bold;
+  color: #c6dff1;
+}
+
+.wether-desc {
+  text-align: end;
+  font-size: 24px;
+}
+
+.weather-text {
+  padding: 1rem 1rem 0;
+  display: block;
+}
