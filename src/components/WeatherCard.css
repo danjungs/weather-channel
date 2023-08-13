@@ -1,5 +1,5 @@
 .box-container {
-  margin: 0 1rem;
+  margin: 1rem;
   padding: 1rem 0;
   border: 2px white solid;
   border-radius: 15px;
@@ -42,4 +42,10 @@
 .weather-text {
   padding: 1rem 1rem 0;
   display: block;
+}
+
+@media (max-width: 600px) {
+  .weather-container {
+    flex-direction: column;
+  }
 }
